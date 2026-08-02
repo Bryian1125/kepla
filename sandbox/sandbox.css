@@ -1,0 +1,13 @@
+body {
+   display: 		flex;
+   flex-direction:	column;
+   justify-content:     center;
+   align-items: 	center;
+   height:              100vh;
+   font-family:         'courier-new', monospace;
+   background-image:    linear-gradient(
+                        to bottom, 
+                        #0b0b1f,
+                        #00021c);
+   overflow-y:          clip;
+}
