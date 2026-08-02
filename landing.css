@@ -1,0 +1,78 @@
+body {
+   display: 		      flex;
+   flex-direction:	   column;
+   justify-content:     center;
+   align-items: 	      center;
+   height:              100vh;
+   background-image:    linear-gradient(
+                        to bottom, 
+                        #0b0b1f,
+                        #00021c);
+   overflow-y:          clip;
+}
+
+.welcomeSection {
+   display:             flex;
+   flex-direction:      column;
+   color:               #deffe7;
+}
+
+.welcomeToText {
+   font-size:           40px;
+   margin-bottom:       -50px
+}
+
+.keplaText {
+   font-size:           200px;
+   margin:              0px;
+   margin-bottom:       -150px
+
+
+}
+
+.infoSection {
+   display:             flex;
+   flex-direction:      column;
+   height:              350px;
+   gap:                 10px;
+   color:               #deffe7;
+}
+
+.uiBox {
+   border:              1px solid #373957;
+   border-radius:       5px;
+   background-image:    linear-gradient(
+                        to bottom, 
+                        #16173380, 
+                        #0a0b2180);
+}
+
+.recentUpdates {
+   width:               500px;
+   height:              75px;
+}
+
+.menuPanel {
+   display:             flex;
+   flex-direction:      column;
+   align-items:         center;
+   justify-content:     center;
+
+   width:               500px;
+   height:              130px;
+   gap:                 10px;
+}
+
+.menuPanel > button {
+   width:               500px;
+   height:              20px;
+
+   background:          none;
+   border:              none;
+
+   color:               #deffe7;
+   text-align:          center;
+   line-height:         1;
+   font-size:           17px;
+}
+
