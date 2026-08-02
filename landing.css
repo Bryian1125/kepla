@@ -4,7 +4,7 @@ body {
    justify-content:     center;
    align-items: 	      center;
    height:              100vh;
-   font-family:         "Times New Roman", Times, serif;
+   font-family:         'courier-new', monospace;
    background-image:    linear-gradient(
                         to bottom, 
                         #0b0b1f,
@@ -13,16 +13,19 @@ body {
 }
 
 button {
-   font-family: "Times New Roman", Times, serif;
+
+   font-family:         'courier-new', monospace;
 }
 
 .welcomeSection {
+   font-family:         "Times New Roman", Times, serif;
    display:             flex;
    flex-direction:      column;
    color:               #deffe7;
 }
 
 .welcomeToText {
+   font-family:         "Times New Roman", Times, serif;
    font-size:           40px;
    margin-bottom:       -50px
 }
@@ -50,11 +53,25 @@ button {
                         to bottom, 
                         #16173380, 
                         #0a0b2180);
+   transition-duration: 0.4s;
+}
+
+.uiBox:hover{
+   border:              1px solid #535773;
 }
 
 .recentUpdates {
    width:               500px;
-   height:              75px;
+   height:              85px;
+}
+
+.updatesHeader {
+   width:               500px;
+   height:              15px;
+   color:               #60f07f;
+   font-size:           15px;
+   font-weight:         bold;
+   padding-left:        10px;
 }
 
 .menuPanel {
@@ -65,12 +82,11 @@ button {
 
    width:               500px;
    height:              130px;
-   gap:                 10px;
 }
 
 .menuPanel > button {
    width:               500px;
-   height:              20px;
+   height:              30px;
 
    background:          none;
    border:              none;
@@ -79,5 +95,11 @@ button {
    text-align:          center;
    line-height:         1;
    font-size:           17px;
+   transition-duration: 0.2s;
 }
+
+.menuPanel > button:hover {
+   background-color:    #e0e0e033;
+}
+
 
