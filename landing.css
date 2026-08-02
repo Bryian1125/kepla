@@ -4,11 +4,16 @@ body {
    justify-content:     center;
    align-items: 	      center;
    height:              100vh;
+   font-family:         "Times New Roman", Times, serif;
    background-image:    linear-gradient(
                         to bottom, 
                         #0b0b1f,
                         #00021c);
    overflow-y:          clip;
+}
+
+button {
+   font-family: "Times New Roman", Times, serif;
 }
 
 .welcomeSection {
