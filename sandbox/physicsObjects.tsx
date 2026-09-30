@@ -17,22 +17,22 @@ export default class PhysicsObject {
     this.vy = vy;
   }
 
-    static createObject(
+  static createObject(
       ctx: CanvasRenderingContext2D,
       name = 'body',
       mass = 1,
       xPos = ctx.canvas.width/2,
       yPos = ctx.canvas.width/2,
-    ): PhysicsObject {
-    const x = xPos;
-    const y = yPos;
+  ): PhysicsObject {
+      const x = xPos;
+      const y = yPos;
 
-    const obj = new PhysicsObject(name, mass, x, y, 0, 0);
+      const obj = new PhysicsObject(name, mass, x, y, 0, 0);
 
-    ctx.beginPath();
-    ctx.arc(obj.x, obj.y, 10, 0, Math.PI * 2);
-    ctx.fillStyle = "white";
-    ctx.fill();
+      ctx.beginPath();
+      ctx.arc(obj.x, obj.y, mass, 0, Math.PI * 2);
+      ctx.fillStyle = "white";
+      ctx.fill();
 
     return obj;
   }
